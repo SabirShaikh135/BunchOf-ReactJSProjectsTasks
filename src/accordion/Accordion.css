@@ -1,0 +1,66 @@
+.main-according{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+.accordion-container{
+    width: 90vw;
+    margin: 5rem auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 2.5rem 2rem;
+    display: grid;
+    gap: 1rem 2rem;
+}
+.accordion-container h3{
+    line-height: 1.2;
+    font-weight: 500;
+}
+.according-quetion{
+    padding: 1rem 1.5rem;
+    border: 2px solid gray;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow:0 5px 15px rgba(63, 51, 51, 0.5);
+
+}
+.according-quetion h4{
+    text-transform: none;
+    line-height: 1.5;
+}
+.according-quetion p{
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.according-quetion header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.according-quetion header h4{
+    margin-bottom: 0;
+}
+
+.according-btn{
+    background-color: transparent;
+    border: transparent;
+    width: 2rem;
+    height: 2rem;
+    background-color: #eae6eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: darkred;
+    cursor: pointer;
+}
+
+
+
+
+
